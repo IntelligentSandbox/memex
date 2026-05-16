@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>memex</title>
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
+    <body>
+        <div id="add-section">
+            <form id="url-form" style="display: contents">
+                <input type="text" name="url" placeholder="Paste URL" required />
+                <input type="text" name="tags" placeholder="tags: anime, funny" />
+                <button type="submit" style="display: none"></button>
+            </form>
+            <a href="#" onclick="event.preventDefault(); document.getElementById('file-input').click()">browse files</a>
+            <input type="file" id="file-input" multiple accept="video/*,image/*" />
+            <span id="status"></span>
+        </div>
+
+        <input type="text" id="search" placeholder="Search..." />
+
+        <div class="grid" id="results"></div>
+        <div id="loading" style="display:none">loading...</div>
+
+        <script src="/static/app.js"></script>
+    </body>
+</html>

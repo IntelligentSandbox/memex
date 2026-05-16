@@ -1,0 +1,55 @@
+body {
+    font-family: monospace;
+    padding: 20px;
+}
+
+input {
+    border-radius: 0;
+    border: 1px solid #000;
+}
+
+#add-section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+#file-input {
+    display: none;
+}
+
+#search {
+    display: block;
+    margin-bottom: 16px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.grid {
+    column-width: 320px;
+    column-gap: 12px;
+}
+
+.card {
+    position: relative;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 6px;
+    margin-bottom: -1px;
+}
+
+.card video,
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}

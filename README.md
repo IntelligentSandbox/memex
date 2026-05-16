@@ -1,6 +1,11 @@
 # memex
 
+> [!NOTE]
+> This project was built with significant LLM assistance under human direction and review.
+
 Self-hosted meme library with search. Add URLs or upload files, media gets transcribed/OCR'd and indexed.
+
+![memex](image.png)
 
 ## Installation
 

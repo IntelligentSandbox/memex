@@ -1,0 +1,1 @@
+SELECT * FROM media ORDER BY created_at DESC LIMIT ? OFFSET ?;

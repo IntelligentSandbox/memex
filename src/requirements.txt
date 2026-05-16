@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+yt-dlp
+openai-whisper
+pytesseract
+Pillow
+playwright
+requests
